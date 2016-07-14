@@ -44,6 +44,6 @@ configure :build do
 end
 page "CNAME", layout: false
 
-set :css_dir, 'med-site/stylesheets'
-set :js_dir, 'med-site/javascripts'
-set :images_dir, 'med-site/images'
+set :css_dir, 'stylesheets'
+set :js_dir, 'javascripts'
+set :images_dir, 'images'
