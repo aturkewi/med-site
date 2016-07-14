@@ -14,4 +14,9 @@ gem 'middleman-livereload'
 
 gem 'middleman-gh-pages'
 
+gem "middleman-deploy"
+gem 'middleman-bootstrap-navbar'
+gem "bootstrap-sass"
+gem "jquery-middleman"
+
 gem 'rake'
