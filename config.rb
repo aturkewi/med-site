@@ -42,3 +42,8 @@ configure :build do
   # Minify Javascript on build
   # activate :minify_javascript
 end
+page "CNAME", layout: false
+
+set :css_dir, 'med-site/stylesheets'
+set :js_dir, 'med-site/javascripts'
+set :images_dir, 'med-site/images'
