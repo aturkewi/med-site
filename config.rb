@@ -47,3 +47,14 @@ page "CNAME", layout: false
 set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :images_dir, 'images'
+
+configure :build do
+  # Minify CSS on build
+  # activate :minify_css
+
+  # Minify Javascript on build
+  # activate :minify_javascript
+  set :css_dir, 'med-site/stylesheets'
+  set :js_dir, 'med-site/javascripts'
+  set :images_dir, 'med-site/images'
+end
