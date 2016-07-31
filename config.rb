@@ -57,4 +57,5 @@ configure :build do
   set :css_dir, 'med-site/stylesheets'
   set :js_dir, 'med-site/javascripts'
   set :images_dir, 'med-site/images'
+  set :link_to, 'med-site'
 end
